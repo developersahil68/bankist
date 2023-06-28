@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bankist - Sahil</title>
+  </head>
+  <body>
+    <nav>
+      <div class="mainHead">Log in to get started</div>
+
+      <div class="img">
+        <img class="innerImg" src="logo.png" alt="" />
+      </div>
+      <div class="userInfo">
+        <input class="user userName" type="text" placeholder="user" />
+        <input class="user userPin" type="text" placeholder="pin" />
+        <button class="arrowBtn">&rarr;</button>
+      </div>
+    </nav>
+
+    <div class="app">
+      <div class="head">
+        <div class="currentBalance">
+          <p class="CB">Current Balance <span>As of 05/03/2037</span></p>
+          <p></p>
+        </div>
+
+        <div class="balance">0000 $</div> 
+      </div>
+
+      <section>
+        <div class="left">
+          <div class="movements">
+            <div class="deposit">
+              <div class="depositandtime">
+                <div class="text-deposit">2 DEPOSIT</div>
+                <div class="time">3 DAYS AGO</div>
+              </div>
+              <div class="money">4000$</div>
+            </div>
+            <div class="widthdrawal">
+              <div class="widthdrawalandtime">
+                <div class="text-widthdrawal">1 WIDTHDRAWAL</div>
+                <div class="time">24/01/2037</div>
+              </div>
+              <div class="money">-378$</div>
+            </div>
+          </div>
+          <!-- <div class="moneyFlow">
+            <div class="moneyIn"> IN <span> 0000$</span> </div>
+            <div class="moneyOut"> OUT <span> 0000$</span> </div>
+            <div class="intrest"> INTREST <span> 0000$</span> </div>
+          </div> -->
+        </div>
+        <div class="right">
+          <div class="transferMoney  rightSide display">
+            <h3  class="rightHead" >Transfer money</h3>
+            <div class="transferInputs inputsLine">
+              <input class="transferInput1 inputRight  transferInput" type="text" />
+              <input class="transferInput2  inputRight  transferInput" id="transferInput2" type="number" />
+              <button class="transferBtn rightBtn">&rarr;</button>
+            </div>
+            <div class="transferLabels labels">
+              <label class="transferLabel transferLabel1">Transfer to</label>
+              <label class="transferLabel transferLabel2"  id="transferInput2">Amount</label>
+            </div>
+          </div>
+          <div class="requestLoan rightSide display ">
+            <h3 class="rightHead" >Request loan</h3>
+            <div class="loanInputs inputsLine">
+              <input  class="loanInput inputRight  " type="number">
+              <button class="loanBtn rightBtn" >&rarr;</button>
+            </div>
+            <div class="loanLabels">
+              <label  class="loanLabel labels" for="">Amount</label>
+            </div>
+          </div>
+          <div class="closeAccount rightSide display"  >
+
+            <h3 class="rightHead" >Close Account</h3>
+            <div class="closeInputs inputsLine">
+               <input class="closeInput  inputRight  closeInput1" type="text" />
+               <input class="closeInput inputRight  closeInput2" type="number" />
+               <button class="closeBtn rightBtn">&rarr;</button>
+             </div>
+             <div class="closeLabels labels">
+               <label class="closeLabel closeLabel1">Confirm user</label>
+               <label class="closeLabel closeLabel2">Confirm PIN</label>
+             </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <div class="lowermost">
+
+        <div class="moneyDistribution">
+          <div class="moneyDis">
+            
+          </div>
+         <div class="moneyIn">
+           IN <span class="moneyInn" > 0000$</span> 
+         </div>
+         <div class="moneyOut">
+           OUT <span class="moneyOutt" > 0000$</span>
+         </div>
+         <div class="interest">
+           INTEREST <span class="moneyInterest" > 0000$</span>
+         </div>
+         <button class="sort">
+           SORT
+         </button>
+        </div>
+        <div class="timer">
+         You will be logged out in <span class="time" >05:00</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
